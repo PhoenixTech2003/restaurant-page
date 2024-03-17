@@ -1,1 +1,1 @@
-console.log("hey there partner");
+import './style.css'
