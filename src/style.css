@@ -30,7 +30,7 @@ header  nav > button{
     justify-self: center;
 }
 
-#content > h1{
+#content div > h1{
     text-align: center;
     color: white;
 }
