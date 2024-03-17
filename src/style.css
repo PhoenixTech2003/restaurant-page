@@ -5,5 +5,36 @@
 }
 
 body{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
     background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header > nav{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+header  nav > button{
+    background-color: orange;
+    color: white;
+    padding: 10px 50px;
+    border-radius: 20px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 900;
+}
+#content{
+    justify-self: center;
+}
+
+#content > h1{
+    text-align: center;
+    color: white;
+}
+
+#content  h1 > span{
+    color: orange;
 }
